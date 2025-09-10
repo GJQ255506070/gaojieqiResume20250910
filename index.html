@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>高洁琪的个人简历</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --text-color: #34495e;
+            --light-bg: #f8f9fa;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        body {
+            font-family: 'Noto Sans SC', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 40px;
+            box-shadow: var(--shadow);
+            border-radius: 8px;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #eee;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            margin: 0;
+            color: var(--secondary-color);
+            font-weight: 700;
+            font-size: 2.5rem;
+            letter-spacing: 1px;
+        }
+
+        .info {
+            margin: 15px 0;
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+
+        section {
+            margin: 30px 0;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        ul {
+            padding-left: 25px;
+            list-style-type: none;
+        }
+
+        li {
+            margin-bottom: 10px;
+            position: relative;
+            padding-left: 20px;
+        }
+
+        li:before {
+            content: "•";
+            color: var(--primary-color);
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                margin: 20px;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header style="position: relative;">
+            <img src="manbo.jpg" alt="头像"
+                style="width: 150px; height: 150px; position: absolute; top: 10px; left: 10px;">
+            <h1 style="text-align: center; margin-top: 20px;">高洁琪</h1>
+            <div class="info">女 | 19岁 | 广东普宁 | 电话：19230859687</div>
+            <div class="quote" style="text-align: center; margin-top: 10px;">"活着就行"</div>
+        </header>
+
+        <section>
+            <h2>教育背景</h2>
+            <ul>
+                <li>广东科学技术职业学院 - 大模型应用开发专业</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>技术特长</h2>
+            <ul>
+                <li>Java</li>
+                <li>Python</li>
+                <li>数学建模</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>竞赛经历</h2>
+            <ul>
+                <li>数学建模比赛</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>项目经验</h2>
+            <ul>
+                <li>人脸识别</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>兴趣爱好</h2>
+            <ul>
+                <li>画画</li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>
